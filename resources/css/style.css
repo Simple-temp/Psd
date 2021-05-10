@@ -1,0 +1,689 @@
+/*======================================================================*/
+/*====BASIC SETUP===*/
+/*======================================================================*/
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+    font-size:62.5%;
+}
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+}
+ul li 
+{
+    list-style: none;
+}
+h1 
+{
+    font-size:5rem;
+    color:#1e1e1e;
+    font-weight:800;
+}
+h3
+{
+    font-size:4.8rem;
+    color:#1e1e1e;
+    font-weight:800;
+}
+:focus
+{
+    outline:none;
+}
+img 
+{
+    cursor:pointer;
+}
+/*======================================================================*/
+/*====Reusable===*/
+/*======================================================================*/
+.row
+{
+    max-width:100rem;
+    margin:0 auto;
+}
+.btn
+{
+    background-color: #ffe600;
+    padding:.9rem 1.5rem;
+    outline:none;
+    border:none;
+    color:#1e1e1e;
+    font-weight:500;
+    transition: .4s;
+    border:.1rem solid #ffe600;
+    cursor:pointer;
+}
+.btn:hover
+{
+    background-color: #fff;
+    color:#ffe600;
+}
+a 
+{
+    text-decoration: none;
+}
+.row.row-extra-height
+{
+    margin-top:5rem
+}
+.box
+{
+    text-align:center;
+    padding:1.4rem;
+}
+/*======================================================================*/
+/*====Header section===*/
+/*======================================================================*/
+header .logo 
+{
+    margin-top:2.8rem;
+    width:5.5rem;
+    height:auto;
+}
+header .main-menu 
+{
+    margin-top:3.3rem;
+    float:right;
+}
+header .main-menu ul li 
+{
+    display:inline-block;
+    padding:0 0 0 5rem;
+}
+header .main-menu ul li a 
+{
+    color:#1e1e1e;
+    font-weight:500;
+    font-size:1.5rem;
+    transition:.4s;
+    -webkit-transition:.4s;
+    -moz-transition:.4s;
+    -ms-transition:.4s;
+    -o-transition:.4s;
+}
+header .main-menu ul li.active a
+{
+    color:#dfdfdf;
+}
+header .main-menu ul li a:hover 
+{
+    color:#dfdfdf;
+}
+header p 
+{
+    font-size:1.2rem;
+    line-height:2.5rem;
+    font-weight:500;
+}
+header .btn-outline 
+{
+    margin-top:3rem;
+}
+header .span_1_of_2 img 
+{
+    width:100%;
+    display:block;
+}
+header .home-img
+{
+    padding:2.5rem 0 2.5rem 0rem;
+}
+header .home-ex-height
+{
+    margin-top:8rem;
+}
+header .box-alignment 
+{
+    margin-top:4rem;
+}
+/*======================================================================*/
+/*====mobile menu ===*/
+/*======================================================================*/
+.mobile-menu span 
+{
+    color:#1e1e1e;
+    font-size:3.6rem;
+    float:right;
+    margin-top:-4rem;
+    display: none;
+}
+.mobile-menu span:hover
+{
+    cursor:pointer;
+}
+.seconderyMenu
+{
+    width:0;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color:#ffe600;
+    overflow-x: hidden;
+    transition: .4s;
+    z-index: 1;
+}
+.overlay_content
+{
+    position: relative;
+    text-align: center;
+    margin:2rem;
+    top:25%;
+}
+.overlay_content a 
+{
+    display:block;
+    font-size:2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    color:#1e1e1e;
+    padding:2.2rem 0;
+}
+.overlay_content a:hover 
+{
+    -webkit-text-decoration: dotted;
+            text-decoration: dotted;
+}
+.closeBtn
+{
+    position: absolute;
+    right:0;
+    margin-top:4rem;
+    font-size:6.6rem;
+    margin-right:4rem;
+    color:#1e1e1e;
+}
+/*======================================================================*/
+/*====sticky menu===*/
+/*======================================================================*/
+.sticky 
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 1.2rem 1rem;
+    background-color: #ffe600ab;
+    z-index: 1;
+    transition: .4s;
+}
+.sticky .logo
+{
+    margin-top:0;
+}
+.sticky .main-menu
+{
+    margin-top:0;
+    padding-top:.8rem;
+}
+/*======================================================================*/
+/*====work section===*/
+/*======================================================================*/
+.work-section
+{
+    padding:8rem 0;
+}
+.work-section .list-item
+{
+    width:50rem;
+    float: left;
+}
+.work-section ul li.activee
+{
+    background-color: #ffe600 !important;
+}
+.work-section .list-item li
+{
+    display:inline-block;
+    background-color: #fff;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+.work-section .list-item li 
+{
+    color:#1e1e1e;
+    font-size:1.2rem;
+    padding:.3rem 1.5rem;
+    margin-left:1rem;
+    transition:.4s;
+    border-right:0.1rem solid #ddd;
+    border-bottom:0.1rem solid #ddd;
+    font-weight:500;
+}
+.work-section .list-item  li:hover
+{
+    background-color: #ffe600;
+}
+.work-section .show-newest-btn 
+{
+    float:right;
+    cursor:pointer;
+}
+.work-section .show-newest-btn a 
+{
+    margin-right:.5rem;
+}
+.work-section .span_1_of_3 img 
+{
+    width:100%;
+    display:block;
+    height:auto;
+}
+.work-section .span_1_of_3:nth-child(4)
+{
+    margin-left:0;
+} 
+.work-section .show-more-btn
+{
+    text-align:center;
+}
+.work-section .show-more-btn .btn 
+{
+    padding:.9rem 3rem;
+    font-weight:500;
+}
+.work-section .span_1_of_3
+{
+    position: relative;
+    float: left;
+}
+.work-section .span_1_of_3 .item-box
+{
+    width: 100%;
+}
+.work-section .span_1_of_3:hover .second
+{
+    opacity: 1;
+    width:100%;
+}
+.work-section .span_1_of_3 .second
+{
+	position:absolute;
+	transition:all 0.3s ease;
+	background-color:#ffe600;
+	opacity:0;
+}
+.work-section .span_1_of_3 .text
+{
+	position:absolute;
+	color:rgb(0, 0, 0);
+	left:50%;
+	top:40%;
+	transform:translateX(-50%);
+    background-color:#ffe600;
+    cursor:pointer;
+}
+.work-section .span_1_of_3 .text h4 
+{
+    font-weight:800;
+    font-size:2.5rem
+}
+.work-section .span_1_of_3 .text p 
+{
+    font-weight:500;
+    text-align:center;
+    margin-top:1.8rem;
+    text-transform:uppercase;
+}
+.work-section .span_1_of_3 .secondleft
+{
+	min-height:100%;
+	width:0;
+	top:0;
+	left:0;
+}
+/*======================================================================*/
+/*====partner section===*/
+/*======================================================================*/
+.partner-section 
+{
+    padding:8rem 0;
+    background-color: #fdfdfd;
+}
+.partner-section .span_1_of_6 img 
+{
+    width:6rem;
+    height:6rem;
+    display:inline-block;
+}
+.partner-section .span_1_of_6 img:nth-child(1)
+{
+    width:10rem;
+}
+/*======================================================================*/
+/*====about us section===*/
+/*======================================================================*/
+.about-section
+{
+    padding:8rem 0;
+}
+.about-section .col 
+{
+    margin-top:0;
+}
+.about-section .span_1_of_2 p
+{
+    line-height:2.5rem;
+    font-size:1.2rem;
+    margin-top:-1rem;
+}
+.about-section .span_1_of_3 img 
+{
+    width:100%;
+    display:block;
+}
+.about-section .span_1_of_3 .desc p 
+{
+    line-height:2.5rem;
+    font-weight:500;
+}
+.about-section .span_1_of_3 .desc a 
+{
+    color:#1e1e1e;
+    font-weight:500;
+}
+.about-section .span_1_of_3 .about-desc
+{
+    padding:7.5rem 2.5rem;
+    border:.1rem solid #dfdfdf
+}
+.about-section .span_1_of_3 .about-desc h5 
+{
+    font-size:2rem;
+    padding-bottom:3.5rem;
+    font-weight:800;
+}
+.about-section .span_1_of_3 .about-desc .desc p
+{
+    padding-bottom:3rem;
+}
+.about-section .desc-inner
+{
+    position: absolute;
+    background-color:#ffe600;
+    width:70%;
+    height:auto;
+    padding:1rem 5.2rem 2rem 2rem;
+    font-size:1.5rem;
+    bottom:0;
+    transition:all .4s ease;
+}
+.about-section .span_1_of_3:nth-child(1),
+.about-section .span_1_of_3:nth-child(2)
+{
+    position: relative;
+}
+.about-section .span_1_of_3:hover .blog-width
+{
+	width:100%;
+    transition:all .4s ease;
+}
+.about-section .desc-inner p
+{
+    font-size:1.2rem;
+    margin-top:.6rem;
+    color:#fff;
+    transition:all .4s ease;
+}
+.about-section .desc-inner p span 
+{
+    display:none;
+}
+.about-section .desc-inner:hover span 
+{
+    display:block;
+    margin-top:1rem;
+}
+/*======================================================================*/
+/*====blog section===*/
+/*======================================================================*/
+.blog-section
+{
+    background-color: #fdfdfd;
+    padding:8rem 0;
+}
+.blog-section .span_1_of_2 p
+{
+    line-height:2.5rem;
+    font-size:1.2rem;
+    margin-top:-2rem;
+}
+.blog-section .span_1_of_3 img 
+{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.blog-section .blog-title-box
+{
+    position: relative;
+}
+.blog-section .blog-title-box:hover .second
+{
+    opacity: 1;
+    width:100%;
+}
+.blog-section .blog-title-box .second
+{
+	position:absolute;
+	transition:all 0.3s ease;
+	background-color:#ffe600;
+	opacity:0;
+}
+.blog-section .blog-title-box .text
+{
+	position:absolute;
+	color:rgb(0, 0, 0);
+	font-size:2rem;
+    font-weight:800;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%);
+    background-color:#ffe600;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.blog-section .blog-title-box .secondleft
+{
+	height:100%;
+	width:0;
+	top:0;
+	left:0;
+}
+.blog-section .span_1_of_3 h5 
+{
+    padding:2rem 1.7rem 1.7rem 1.7rem;
+    font-weight:800;
+    font-size:1.2rem;
+}
+.blog-section .span_1_of_3 p 
+{
+    line-height:2.2rem;
+    font-weight:500;
+    font-size:1.1rem;
+    padding-left:1.7rem;
+}
+.blog-section .span_1_of_3 span 
+{
+    margin-top:1.8rem;
+    display:inline-block;
+    padding-left:1.7rem;
+}
+.blog-section .blog-desc
+{
+    background-color: #fff;
+}
+/*======================================================================*/
+/*====contact section===*/
+/*======================================================================*/
+.contact-section
+{
+    padding:8rem 0;
+}
+.contact-section h4 
+{
+    font-weight:800;
+    font-size:2.1rem;
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+.contact-section .span_1_of_2 p
+{
+    line-height:2.5rem;
+    font-size:1.1rem;
+    margin-top:-1rem;
+    font-weight:500;
+}
+.contact-section .span_1_of_2 input[type="text"],
+.contact-section .span_1_of_2 input[type="email"]
+{
+    height:2.5rem;
+    padding:1.9rem 0 1.9rem 2.1rem;
+    margin-bottom:.8rem;
+    background-color: #fdfdfd;
+    border:none;
+    font-weight:800;
+}
+.contact-section .span_1_of_2 textarea
+{
+    background-color: #fdfdfd;
+    border:none;
+    padding:1.4rem 0 1.4rem 2.1rem;
+    font-weight:800;
+}
+.contact-section .span_1_of_2 button
+{
+    margin-top:2rem;
+    font-weight:500;
+}
+.contact-section .span_1_of_2 img 
+{
+    width:100%;
+    display:block;
+    height:auto;
+}
+.contact-section .span_1_of_2 input 
+{
+    width:100%;
+}
+.contact-section .span_1_of_2 textarea 
+{
+    width:100%;
+}
+.contact-section .contact-info
+{
+    margin-top:6.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section .contact-info
+{
+    width:100%;
+    text-align:center;
+}
+.contact-section .contact-info-inner
+{
+    width:32%;
+}
+.contact-section .contact-info .contact-info-inner img 
+{
+    width:1.6rem;
+    height:2.1rem;
+}
+.contact-section .contact-info .contact-info-inner img:nth-child(2)
+{
+    margin-bottom:1.5rem;
+}
+.contact-section .contact-info .contact-info-inner label
+{
+    margin-top:2.5rem;
+    display:block;
+    margin-bottom:1.5rem;
+}
+.contact-section .contact-info .contact-info-inner p
+{
+    margin-top:2rem;
+    display:block;
+}
+.contact-section .social-icon
+{
+    text-align:center;
+}
+.contact-section .social-icon i 
+{
+    font-size:2.1rem;
+    margin-right:3.5rem;
+    cursor:pointer;
+}
+.contact-section .social-icon i:nth-child(3)
+{
+    margin-right:0;
+}
+/*======================================================================*/
+/*====footer section===*/
+/*======================================================================*/
+footer
+{
+    background-color: #1e1e1e;
+    padding:4.5rem 0;
+}
+footer .row
+{
+    position: relative;
+}
+footer .footer-inner
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .copyright-branding
+{
+    width:30rem;
+    float:left;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+footer .copyright-branding .logo-footer
+{
+    width:4.5rem;
+}
+footer .copyright-branding span
+{
+    color:#fff;
+    margin-left:1.8rem;
+}
+footer .show-newest-btn
+{
+    width:15rem;
+    right:0;
+    position: absolute;
+    cursor:pointer;
+    text-transform: uppercase;
+    display:flex;
+    justify-content:center;
+}
+footer .show-newest-btn a 
+{
+    margin-right:1rem;
+    color:#fff;
+}
+footer .show-newest-btn a i 
+{
+    padding-left:1rem;
+}
+footer span
+{
+    font-size:1.2rem;
+}

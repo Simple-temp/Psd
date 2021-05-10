@@ -1,0 +1,503 @@
+@media screen and (max-width:1025px)
+{
+    .row
+    {
+        padding:0 3rem;
+    }
+    h1
+    {
+        font-size:4rem;
+    }
+}
+@media screen and (max-width:925px)
+{
+    header
+    {
+        padding:0 3rem;
+    }
+    footer 
+    {
+        padding:4.5rem 3rem;
+    }
+    .work-section,
+    .partner-section,
+    .about-section,
+    .blog-section,
+    .contact-section
+    {
+        padding:8rem 3rem;
+    }
+    h1 
+    {
+        font-size:3.5rem;
+    }
+    h3 
+    {
+        font-size:3.2rem;
+    }
+    .span_1_of_3 {
+		width: 49.2%; 
+	}
+    .span_1_of_6 {
+        width: 32.26%; 
+    }
+    .span_1_of_6:nth-child(3),
+    .span_1_of_6:nth-child(6)
+    {
+        margin-left:0;
+    }
+    .span_1_of_3:nth-child(3)
+    {
+        margin-left:0;
+    }
+    .work-section .span_1_of_3:nth-child(4)
+    {
+        margin-left:1.6%;
+    }
+    .work-section .span_1_of_3:nth-child(5)
+    {
+        margin-left:0;
+    }
+    .partner-section .span_1_of_6 img 
+    {
+        width:4rem;
+        height:8rem;
+        display:inline-block;
+        left:50%;
+    }
+    footer span
+    {
+        font-size:1.2rem;
+    }
+}
+@media screen and (max-width:825px)
+{
+    header .box-alignment 
+    {
+        margin-top:2rem;
+    }
+}
+@media screen and (max-width:768px)
+{
+    h1 
+    {
+        font-size:2.9rem;
+    }
+    h3
+    {
+        font-size:2.5rem;
+    }
+    header .box-alignment 
+    {
+        margin-top:2rem !important;
+    }
+    header .box-alignment 
+    {
+        margin-top:2rem;
+    }
+    header .main-menu 
+    {
+        display:none;
+    }
+    .mobile-menu span 
+    {
+        display: block;
+    }
+    footer .copyright-branding .logo-footer
+    {
+        width:3.5rem;
+    }
+}
+@media screen and (max-width:667px)
+{
+    h1
+    {
+        font-size: 2.5rem;
+    }
+    header .box-alignment .btn-outline
+    {
+        margin-top:1rem;
+    }
+    header .box-alignment p
+    {
+        line-height: 2rem;
+        margin-top:1rem;
+    }
+}
+@media screen and (max-width:620px)
+{
+    h1 
+    {
+        font-size:4rem;
+    }
+    .span_1_of_2,
+    .span_1_of_3,
+    .span_1_of_6
+    {
+        width:100%;
+    }
+    header .span_1_of_2:nth-child(2)
+    {
+        margin-left:0;
+    }
+    header .home-img 
+    {
+        width:100%;
+        padding: 2.5rem 0 2.5rem 0rem;
+    }
+    header .box-alignment 
+    {
+        margin-top:2rem;
+    }
+    .work-section .list-item
+    {
+        padding-bottom:3rem;
+    }
+    .work-section .span_1_of_3 img 
+    {
+        width:100%;
+    }
+    .work-section .span_1_of_3:nth-child(2),
+    .work-section .span_1_of_3:nth-child(4),
+    .work-section .span_1_of_3:nth-child(6)
+    {
+        margin-left: 0;
+    }
+
+    .work-section .span_1_of_3:hover .second
+    {
+        width:100%;
+    }
+    .work-section .row
+    {
+        position: relative;
+    }
+    .work-section .show-newest-btn
+    {
+        margin-top:6.2rem;
+        position: absolute;
+        left:5%;
+    }
+    .about-section .span_1_of_3
+    {
+        margin-top:1rem;
+    }
+    .about-section .span_1_of_3:nth-child(2),
+    .blog-section .span_1_of_3:nth-child(2)
+    {
+        margin-left:0;
+    }
+    .contact-section .span_1_of_2:nth-child(2)
+    {
+        margin-top:1.8rem;
+    }
+    .blog-section .span_1_of_3 .secondleft
+    {
+        height:100%;
+        width:0;
+        top:0;
+        left:0;
+    }
+    .blog-section .span_1_of_3 .blog-desc
+    {
+        padding-bottom:1.4rem;
+    }
+    .blog-section .span_1_of_3 
+    {
+        margin-top:1.2rem;
+    }
+    .contact-section .col 
+    {
+        margin-left:0;
+    }
+    .contact-section .social-icon
+    {
+        padding-bottom:2rem;
+    }
+}
+@media screen and (max-width:586px)
+{
+    header p
+    {
+        line-height:2rem;
+    }
+    header .btn-outline 
+    {
+        margin-top:2rem;
+    }
+
+}
+@media screen and (max-width:528px)
+{
+    html
+    {
+        font-size:40%;
+    }
+    h1
+    {
+        font-size:5rem
+    }
+    header .box-alignment .btn-outline
+    {
+        margin-top:2rem;
+    }
+    header .box-alignment p
+    {
+        line-height: 3.5rem;
+        margin-top:2rem;
+    }
+    .overlay_content
+    {
+        top:30%;
+    }
+    .overlay_content a 
+    {
+        font-size:4rem;
+        padding:2.9rem 0;
+    }
+    .closeBtn
+    {
+        font-size:9rem;
+        margin-top:6rem;
+    }
+    header p,
+    .about-section p,
+    .blog-section p,
+    button{
+        font-size:1.8rem !important;
+    }
+    header p
+    {
+        line-height:3.4rem;
+    }
+    header .logo 
+    {
+        width:7rem;
+    }
+    header span 
+    {
+        font-size:10rem;
+    }
+    .sticky 
+    {
+        padding: 2rem 1rem;
+    }
+    header .logo 
+    {
+        width:8rem;
+        margin-bottom:-5rem;
+    }
+    header .mobile-menu span
+    {
+        font-size:6rem;
+        margin-top:-1rem;
+    }
+    .work-section .show-newest-btn {
+        margin-top: 6.9rem !important;
+        position: absolute;
+        margin-right:3rem;
+        font-size:1.5rem;
+    }
+    .work-section .list-item li:nth-child(1),
+    .work-section .list-item li:nth-child(2),
+    .work-section .list-item li:nth-child(3),
+    .work-section .list-item li:nth-child(4)
+    {
+        margin-left:0;
+        font-size:1.8rem;
+    }
+    .about-section .span_1_of_2 p
+    {
+        line-height:3.4rem;
+    }
+    .about-section .span_1_of_3 .about-desc p
+    {
+        line-height:3.4rem;
+    }
+    .about-section .span_1_of_3 h5
+    {
+        font-size:2.2rem;
+    }
+    .about-section .span_1_of_3 a
+    {
+        font-size:1.6rem;
+    }
+    .blog-section .span_1_of_2 p
+    {
+        line-height:3.4rem;
+    }
+    .blog-section .span_1_of_3 p
+    {
+        line-height:3.4rem;
+    }
+    .blog-section .span_1_of_3 h5
+    {
+        font-size:2.2rem;
+    }
+    .blog-section .span_1_of_3 span 
+    {
+        font-size:1.6rem;
+    }
+    .contact-section .contact-info-box p 
+    {
+        font-size:1.8rem;
+        line-height: 3.4rem;
+    }
+    .contact-section form ::-webkit-input-placeholder
+    {
+        font-size:1.9rem;
+        opacity:1;
+        color:#1e1e1e;
+    }
+    .contact-section form ::-moz-placeholder
+    {
+        font-size:1.9rem;
+        opacity:1;
+        color:#1e1e1e;
+    }
+    .contact-section form :-ms-input-placeholder
+    {
+        font-size:1.9rem;
+        opacity:1;
+        color:#1e1e1e;
+    }
+    .contact-section form ::-ms-input-placeholder
+    {
+        font-size:1.9rem;
+        opacity:1;
+        color:#1e1e1e;
+    }
+    .contact-section form ::placeholder
+    {
+        font-size:1.9rem;
+        opacity:1;
+        color:#1e1e1e;
+    }
+    .contact-section .span_1_of_2 input[type="text"],
+    .contact-section .span_1_of_2 input[type="email"]
+    {
+        padding:2.5rem 0 2.5rem 2.1rem;
+        margin-bottom:1.5rem;
+        font-weight:500;
+    }
+    .contact-section .span_1_of_2 textarea
+    {
+        color:#1e1e1e;
+        font-size:1.8rem;
+        font-weight:500;
+    }
+    .contact-section .contact-info .contact-info-inner p
+    {
+        font-size:1.4rem;
+    }
+    .contact-section .contact-info .contact-info-inner span
+    {
+        font-size:1.4rem;
+    }
+    .contact-section .contact-info .contact-info-inner label
+    {
+        font-size:1.4rem;
+    }
+    footer span
+    {
+        font-size:1.2rem;
+    }
+}
+@media screen and (max-width:340px)
+{
+    html
+    {
+        font-size:25%;
+    }
+    .about-section p,
+    .blog-section p
+    {
+        font-size:2.6rem !important;
+        line-height:5rem !important;
+    }
+    h5 
+    {
+        font-size:2.9rem !important;
+    }
+    .overlay_content
+    {
+        top:30%;
+    }
+    .overlay_content a 
+    {
+        font-size:6rem;
+        padding:2.9rem 0;
+    }
+    header .logo 
+    {
+        width:9rem;
+    }
+    header .mobile-menu span
+    {
+        font-size:8rem;
+    }
+    .closeBtn
+    {
+        font-size:12rem;
+    }
+    .sticky 
+    {
+        padding: 3.2rem 2rem;
+    }
+    .sticky .logo
+    {
+        width:10.5rem;
+        margin-bottom:-7rem;
+    }
+    .sticky span  
+    {
+        font-size:6rem;
+        margin-top:0;
+        padding-bottom:2rem;
+    }
+    .contact-section .contact-info .contact-info-inner p
+    {
+        font-size:1.9rem;
+    }
+    .contact-section .contact-info .contact-info-inner span
+    {
+        font-size:1.9rem;
+    }
+    .contact-section .contact-info .contact-info-inner label
+    {
+        font-size:1.9rem;
+    }
+    .contact-section .contact-info-inner 
+    {
+        width: 34%;
+        overflow:hidden;
+        padding:3rem;
+    }
+    footer span
+    {
+        font-size:1.5rem;
+    }
+}
+@media screen and (max-width:210px)
+{
+    html
+    {
+        font-size:15%;
+    }
+    .overlay_content a 
+    {
+        font-size:8rem;
+        padding:2.9rem 0;
+    }
+    .closeBtn
+    {
+        font-size:19rem;
+    }
+}
+@media screen and (max-width:164px)
+{
+    html
+    {
+        font-size:9%;
+    }
+}

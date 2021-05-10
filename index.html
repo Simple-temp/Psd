@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+    <!---Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="resources/css/all.min.css">
+    <link rel="stylesheet" href="resources/css/fontawesome.min.css">
+    <!---vendors files-->
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <!---Resources files-->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+
+    <title>PSD to html</title>
+</head>
+<body>
+
+
+    <!---start Header section-->
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a href="#"><img src="resources/img/logo.png" class="logo" alt="logo"/></a>
+                <div class="main-menu">
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu">
+                    <span onclick="openMenu()">&#9776;</span>
+                    <div id="secondMenu" class="seconderyMenu">
+                        <a href="javascript:void(0)" onclick="closeMenu()" class="closeBtn">&times;</a>
+                        <div class="overlay_content">
+                          <a onclick="closeMenu()" href="#home">home</a>
+                          <a onclick="closeMenu()" href="#work">Work</a>
+                          <a onclick="closeMenu()" href="#about">About</a>
+                          <a onclick="closeMenu()" href="#blog">Blog</a>
+                          <a onclick="closeMenu()" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row home-ex-height">
+            <div class="col span_1_of_2 box-alignment">
+                <h1>
+                    Hello!!!<br/>
+                    We Are Creative
+                    Digital Agency.
+                </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn btn-outline">SEND MESSAGE</button>
+            </div>
+            <div class="col span_1_of_2 home-img">
+                <img src="resources/img/home.jpg" alt="home-img" />
+            </div>
+        </div>
+    </header>
+    <!---end Header section-->
+    <!---start work section-->
+    <section class="work-section js--work" id="work">
+        <div class="row">
+            <h3>WORK SHOWCASE.</h3>
+        </div>
+        <div class="row row-extra-height">
+            <ul class="list-item">
+                <li class="activee" data-filter="*">all</li>
+                <li data-filter=".branding">branding</li>
+                <li data-filter=".Illustration">Illustration</li>
+                <li data-filter=".web">web</li>
+            </ul>
+            <div class="show-newest-btn">
+                <a>NEWEST FIRST</a>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+
+        <div class="row container row-extra-height">
+            <div class="col span_1_of_3 mix branding">
+                <img src="resources/img/6.jpg" alt="portfolio-item" class="img-gallery"/>
+                <div class="second  secondleft">
+                    <div class="text">
+                        <h4>ARTWORK</h4>
+                        <P>branding</P>
+                    </div>
+				</div>
+            </div>
+            <div class="col span_1_of_3 mix web">
+                <img src="resources/img/7.jpg" alt="portfolio-item" class="img-gallery"/>
+                <div class="second  secondleft">
+                    <div class="text">
+                        <h4>ARTWORK</h4>
+                        <P>web</P>
+                    </div>
+				</div>
+            </div>
+            <div class="col span_1_of_3 mix branding">
+                <img src="resources/img/8.jpg" alt="portfolio-item" class="img-gallery"/>
+                <div class="second  secondleft">
+                    <div class="text">
+                        <h4>ARTWORK</h4>
+                        <P>branding</P>
+                    </div>
+				</div>
+            </div>
+            <div class="col span_1_of_3 mix Illustration">
+                <img src="resources/img/9.jpg" alt="portfolio-item" class="img-gallery"/>
+                <div class="second  secondleft">
+                    <div class="text">
+                        <h4>ARTWORK</h4>
+                        <P>Illustration</P>
+                    </div>
+				</div>
+            </div>
+            <div class="col span_1_of_3 mix Illustration">
+                <img src="resources/img/7.jpg" alt="portfolio-item" class="img-gallery"/>
+                <div class="second  secondleft">
+                    <div class="text">
+                        <h4>ARTWORK</h4>
+                        <P>Illustration</P>
+                    </div>
+				</div>
+            </div>
+            <div class="col span_1_of_3 mix web">
+                <img src="resources/img/6.jpg" alt="portfolio-item" class="img-gallery"/>
+                <div class="second  secondleft">
+                    <div class="text">
+                        <h4>ARTWORK</h4>
+                        <P>web</P>
+                    </div>
+				</div>
+            </div>
+        </div>
+        <div class="row row-extra-height">
+            <div class="show-more-btn">
+                <button class="btn">SHOW MORE</button>
+            </div>
+        </div>
+    </section>
+    <!---end work section-->
+    <!---start partner section-->
+    <section class="partner-section">
+        <div class="row">
+            <div class="col span_1_of_6 box">
+                <img src="resources/img/partner-1.png" alt="partner" />
+            </div>
+            <div class="col span_1_of_6 box">
+                <img src="resources/img/partner-2.png" alt="partner" />
+            </div>
+            <div class="col span_1_of_6 box">
+                <img src="resources/img/partner-3.png" alt="partner" />
+            </div>
+            <div class="col span_1_of_6 box">
+                <img src="resources/img/partner-4.png" alt="partner" />
+            </div>
+            <div class="col span_1_of_6 box">
+                <img src="resources/img/partner-5.png" alt="partner" />
+            </div>
+            <div class="col span_1_of_6 box">
+                <img src="resources/img/partner-6.png" alt="partner" />
+            </div>
+        </div>
+    </section>
+    <!---end partner section-->
+    <!---start about section-->
+    <section class="about-section" id="about">
+            <div class="row">
+                <h3>ABOUT US.</h3>
+            </div>
+            <div class="row row-extra-height">
+                <div class="col span_1_of_2">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="row row-extra-height">
+                <div class="col span_1_of_3">
+                    <img src="resources/img/member4.jpg" alt="about-img"/>
+                    <div class="desc-inner blog-width">
+                        <h5>luke skywalker</h5>
+                        <p>Web designer</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3">
+                    <img src="resources/img/team3.jpg" alt="about-img"/>
+                    <div class="desc-inner blog-width">
+                        <h5>luke skywalker</h5>
+                        <p>Web designer</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3">
+                    <div class="about-desc">
+                        <h5>Little About us</h5>
+                        <div class="desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquar</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!---end about section-->
+
+    <!---start blog section-->    
+    <section class="blog-section" id="blog">
+        <div class="row">
+            <h3>Our Blog.</h3>
+        </div>
+        <div class="row row-extra-height">
+            <div class="col span_1_of_2">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="row row-extra-height">
+            <div class="col span_1_of_3">
+                <div class="blog-title-box">
+                    <img src="resources/img/6.jpg" alt="blog-img"/>
+                    <div class="second  secondleft">
+                        <div class="text">Read More</div>
+                    </div>
+                </div>
+                <div class="blog-desc">
+                    <h5>SUPER BLOG ARTICLE!</h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nihil natus omnis id.</P>
+                    <span>20 May 2020</span>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="blog-title-box">
+                    <img src="resources/img/7.jpg" alt="blog-img"/>
+                    <div class="second  secondleft">
+                        <div class="text">Read More</div>
+                    </div>
+                </div>
+                <div class="blog-desc">
+                    <h5>SUPER BLOG ARTICLE!</h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nihil natus omnis id.</P>
+                    <span>20 May 2020</span>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="blog-title-box">
+                    <img src="resources/img/8.jpg" alt="blog-img"/>
+                    <div class="second  secondleft">
+                        <div class="text">Read More</div>
+                    </div>
+                </div>
+                <div class="blog-desc">
+                    <h5>SUPER BLOG ARTICLE!</h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nihil natus omnis id.</P>
+                    <span>20 May 2020</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---end blog section-->
+    <!---start contact section-->
+    <section class="contact-section" id="contact">
+        <div class="row">
+            <h3>Contact Us.</h3>
+        </div>
+        <div class="row row-extra-height">
+            <div class="col span_1_of_2 contact-info-box">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="row row-extra-height">
+            <div class="col span_1_of_2">
+                <h4>Send Us Message</h4>
+                <form action="" method="POST">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea rows="8" cols="70">Message</textarea>
+                </form>
+                <button class="btn">Send Message</button>
+            </div>
+            <div class="col span_1_of_2">
+                <img src="resources/img/4.jpg" alt="contact-map" />
+            </div>
+        </div>
+        <div class="row row-extra-height">
+            <div class="contact-info">
+                <div class="contact-info-inner">
+                    <img src="resources/img/icon-1.png" alt="icon"/>
+                    <p>1211 Awesome Avenue, 
+                        NY USD
+                    </p>
+                </div>
+                <div class="contact-info-inner">
+                    <img src="resources/img/icon-2.png" alt="icon"/>
+                    <div class="number-box">
+                        <p>+00 123 - 456 -78</p>
+                        <span>+00 123 - 456 -78</span>
+                    </div>
+                </div>
+                <div class="contact-info-inner">
+                    <img src="resources/img/icon-3.png" alt="icon"/>
+                    <label>mint@mintmail.com</label>
+                </div>
+            </div>
+        </div>
+        <div class="row row-extra-height">
+            <div class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+    </section>
+    <!---end contact section-->
+
+    <!---start footer section-->
+    <footer>
+        <div class="row">
+            <div class="footer-inner">
+                <div class="copyright-branding">
+                    <a href="#"><img src="resources/img/footer-logo.png" alt="footer-logo" class="logo-footer" /></a>
+                    <span>&copy2020- Mint,All Right Reserved</span>
+                </div>
+                <div class="show-newest-btn">
+                    <a href="#home">Back To Top <i class="fas fa-chevron-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---end footer section-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).on("click","ul li",function(){
+            $(this).addClass("active").siblings().removeClass("active")
+        });
+        $(document).on("click","li",function(){
+            $(this).addClass("activee").siblings().removeClass("activee")
+        });
+    </script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="resources/js/custom.js"></script>
+</body>
+</html>
